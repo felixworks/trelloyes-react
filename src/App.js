@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import List from './List/List.js';
+import STORE from './store';
 
 class App extends Component {
   render() {
-    console.log(this.props);
+    console.log('this inside of app', this);
     return (
       <main className='App'>
         <header class="App-header">

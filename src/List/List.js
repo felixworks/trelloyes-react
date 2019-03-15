@@ -10,9 +10,9 @@ function List(props) {
             <header className="List-header">
                 <h2>{props.header}</h2>
             </header>
-            {props.cardIds.map((cardId, i) => <Card 
+            {props.cardIds.map((cardId) => <Card 
             cardId={cardId} 
-            key={i}
+            key={cardId}
             title={props.allCards[cardId].title}
             content={props.allCards[cardId].content}
             />)}
