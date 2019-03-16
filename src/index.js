@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+// import './index.css';
 import App from './App';
-import STORE from './store.js';
+// import STORE from './store.js';
 
-ReactDOM.render(<App store={STORE} />, document.getElementById('root'));
+// ReactDOM.render(<App store={STORE} />, document.getElementById('root'));
+
+
+// MESSAGES SNAPSHOT TEST
+ReactDOM.render(<App />, document.getElementById('root'));

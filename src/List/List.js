@@ -3,7 +3,7 @@ import Card from '../Card/Card.js';
 import './List.css';
 
 function List(props) {
-    console.log('list props', props);
+    // console.log('list props', props);
     console.log('list of cardIds', props.cardIds);
     return (
         <section className="List">
@@ -16,7 +16,6 @@ function List(props) {
             title={props.allCards[cardId].title}
             content={props.allCards[cardId].content}
             />)}
-            
         </section>
     )
 }
