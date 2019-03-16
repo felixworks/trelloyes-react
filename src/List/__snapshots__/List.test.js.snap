@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List test renders List UI as expected 1`] = `
+<section
+  className="List"
+>
+  <header
+    className="List-header"
+  >
+    <h2>
+      First list
+    </h2>
+  </header>
+  <div
+    className="List-cards"
+  >
+    <div
+      className="Card"
+    >
+      <h3>
+        First card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
+    </div>
+  </div>
+  <div
+    className="List-cards"
+  >
+    <div
+      className="Card"
+    >
+      <h3>
+        Second card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
+    </div>
+  </div>
+  <div
+    className="List-cards"
+  >
+    <div
+      className="Card"
+    >
+      <h3>
+        Fifth card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
+    </div>
+  </div>
+  <div
+    className="List-cards"
+  >
+    <div
+      className="Card"
+    >
+      <h3>
+        Sixth card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
+    </div>
+  </div>
+  <div
+    className="List-cards"
+  >
+    <div
+      className="Card"
+    >
+      <h3>
+        Seventh card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
+    </div>
+  </div>
+  <div
+    className="List-cards"
+  >
+    <div
+      className="Card"
+    >
+      <h3>
+        Tenth card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
+    </div>
+  </div>
+  <div
+    className="List-cards"
+  >
+    <div
+      className="Card"
+    >
+      <h3>
+        Twelth card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
+    </div>
+  </div>
+  <div
+    className="List-cards"
+  >
+    <div
+      className="Card"
+    >
+      <h3>
+        Thirteenth card
+      </h3>
+      <p>
+        lorem ipsum
+      </p>
+    </div>
+  </div>
+</section>
+`;
