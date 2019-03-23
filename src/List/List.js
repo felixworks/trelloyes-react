@@ -4,7 +4,6 @@ import './List.css';
 
 function List(props) {
     console.log('list props', props);
-    console.log('list of cardIds', props.cardIds);
     return (
         <section className="List">
             <header className="List-header">
@@ -15,7 +14,10 @@ function List(props) {
             key={cardId}
             title={props.allCards[cardId].title}
             content={props.allCards[cardId].content}
+            listId={props.key}
+            onClickDelete={props.onClickDelete} 
             />)}
+            <button type="button" onClick={() => props.onClickCard(props.header)}>Add Random</button> 
             
         </section>
     )
