@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css';
 
 function Card(props) {
-    console.log('card props', props.listId);
+    // console.log('card props', props.listId);
     return (
         <div className="List-cards">
             <div className="Card">

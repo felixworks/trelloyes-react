@@ -3,7 +3,7 @@ import Card from '../Card/Card.js';
 import './List.css';
 
 function List(props) {
-    console.log('list props', props);
+    // console.log('list props', props);
     return (
         <section className="List">
             <header className="List-header">
@@ -14,11 +14,10 @@ function List(props) {
             key={cardId}
             title={props.allCards[cardId].title}
             content={props.allCards[cardId].content}
-            listId={props.key}
+            listId={props.listId}
             onClickDelete={props.onClickDelete} 
             />)}
-            <button type="button" onClick={() => props.onClickCard(props.header)}>Add Random</button> 
-            
+            <button type="button" onClick={() => props.onClickCard(props.listId)}>Add Random</button>
         </section>
     )
 }
